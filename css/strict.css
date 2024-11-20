@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin: 0;
+    padding: 0;
+}
+.navlink{
+    width: 40%;
+    
+}
+.navlink ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.navlink ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.img_gallary{
+    background-image: url("/Images/Banner.png");
+}
+.img_gallary{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img_gallary_container{
+    width: 20%;
+    /* border: 1px solid black; */
+
+}
+
+.gallery_header h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+    color:white;
+}
+.text span{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.gallary_btn{
+    background-color: transparent;
+    border: 1px solid rgba(0, 157, 255, 0.659);
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.content_wrapper{
+    padding: 20px;
+}
+.content_wrapper .content_head{
+    margin: 0;
+    padding-top:10px;
+}
+.content{
+    background-color: aliceblue;
+    text-align: center;
+}
+.addvertise{
+    background-color: white;
+    display: flex;
+    height: 250px;
+}
+.addvertise_child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addvertise_child img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+
+}
+.addvertise_child h3{
+    margin: 0;
+}
+.before_footer{
+    background-color: aliceblue;
+}
+.before_footer{
+    display: flex;
+    flex-direction: column;
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.showcase_img{
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.footer form input{
+    width: 100%;
+}
+h2{
+    text-transform: capitalize;
+}
+.copy-write{
+    display: flex;
+    justify-content: space-between;
+}
+.social_links{
+    width: 15%;
+}
